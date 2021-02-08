@@ -1,0 +1,29 @@
+.sectionContainer {
+  background-color: #f7f7f7;
+}
+.section2 {
+  margin: auto 9%;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.article {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.heading1 {
+  margin-bottom: 1rem;
+}
+.red {
+  color: #ee4248;
+}
+.paragraph,
+.paragraph1 {
+  line-height: 1.7;
+}
+.paragraph1 {
+  position: relative;
+  margin-bottom: 0px;
+}
