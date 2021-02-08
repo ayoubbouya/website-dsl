@@ -1,0 +1,39 @@
+.sectionContainer {
+  margin: auto 9%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.article1,
+.article2,
+.article3 {
+  margin: 0.5rem 0;
+}
+.article3 {
+  width: 45%;
+}
+.article1 {
+  width: 32%;
+}
+.article2 {
+  width: 23%;
+}
+.heading6 {
+  margin-top: 3rem;
+}
+.paragraph {
+  font-weight: lighter;
+  line-height: 1.7;
+}
+.heading5 {
+  margin: 0.5rem 0;
+}
+.images {
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.company {
+  margin: 0rem 1rem;
+  width: 130px;
+}

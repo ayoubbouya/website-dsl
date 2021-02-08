@@ -1,0 +1,38 @@
+.section3 {
+  padding: 5rem 0;
+  padding-bottom: 3rem;
+}
+.articleContainer {
+  margin: auto 9%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.heading1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+.heading2 {
+  color: #ee4248;
+  padding: 1rem 0;
+}
+.btn {
+  width: 119px;
+  height: 42px;
+  border: 0;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: #ee4248;
+  border-radius: 4px;
+  color: white;
+}
+.paragraph {
+  width: 100%;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+.article {
+  width: 25%;
+}
