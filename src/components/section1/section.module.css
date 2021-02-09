@@ -33,3 +33,22 @@
 .pana {
   height: 90%;
 }
+@media (max-width: 1100px) {
+  .section1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .heading1 {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .heading1 {
+    font-size: 30px;
+  }
+  .paragraph {
+    width: 100%;
+  }
+  .pana {
+    width: 95%;
+  }
+}

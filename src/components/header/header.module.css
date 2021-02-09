@@ -2,18 +2,18 @@
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .navContainer {
-  margin: auto 9%;
+  margin: auto 5%;
   display: flex;
   justify-content: space-between;
 }
 .links {
   display: flex;
   justify-content: space-between;
-  width: 93%;
+  width: 96%;
 }
 .lists {
   display: flex;
-  width: 70%;
+  width: 83%;
 }
 
 .list {

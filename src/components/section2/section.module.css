@@ -27,3 +27,27 @@
   position: relative;
   margin-bottom: 0px;
 }
+@media (max-width: 1100px) {
+  .section2 {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .article {
+    width: 100%;
+  }
+  .heading1 {
+    font-size: 30px;
+    margin-top: 1rem;
+  }
+  .paragraph,
+  .paragraph1 {
+    text-align: left;
+  }
+  .paragraph1 {
+    padding-bottom: 2rem;
+  }
+  .pana {
+    margin-top: -2rem;
+  }
+}

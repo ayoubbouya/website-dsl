@@ -36,3 +36,9 @@
 .article {
   width: 25%;
 }
+
+@media (max-width: 1100px) {
+  .articleContainer {
+    flex-direction: column;
+  }
+}

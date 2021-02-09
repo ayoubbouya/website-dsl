@@ -27,10 +27,10 @@ function Header() {
           <Nav className="mr-auto" className={styles.links}>
             <div className={styles.lists}>
               <Nav.Link href="#Services" className={styles.list}>
-                Servicessss
+                Services
               </Nav.Link>
               <Nav.Link href="#Product" className={styles.list}>
-                Productssss
+                Products
               </Nav.Link>
               <Nav.Link href="#Technology" className={styles.list}>
                 Technology
