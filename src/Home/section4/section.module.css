@@ -37,3 +37,26 @@
   margin: 0rem 1rem;
   width: 130px;
 }
+
+@media (max-width: 1100px) {
+  .sectionContainer {
+    flex-direction: column;
+  }
+  .article1,
+  .article2,
+  .article3 {
+    margin: 0;
+    width: 100%;
+  }
+  .company {
+    width: 90px;
+    margin-right: 1px;
+  }
+  .heading6 {
+    margin-top: 2rem;
+    font-size: 24px;
+  }
+  .sectionContainer {
+    margin-top: -2rem;
+  }
+}

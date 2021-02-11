@@ -1,0 +1,35 @@
+.coverContainer {
+  position: relative;
+  margin-top: 3px;
+}
+.bg,
+.bg1 {
+  background-image: url("./images/Background.svg");
+  margin-top: 14px;
+  height: 365px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.bg1 {
+  background-image: url("./images/Background1.svg");
+  margin-top: 0px;
+}
+.heading1 {
+  position: absolute;
+  display: block;
+  font-size: 48px;
+  width: 545px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px;
+  line-height: 1.4;
+}
+.span {
+  color: #ee4248;
+  font-weight: bolder;
+}

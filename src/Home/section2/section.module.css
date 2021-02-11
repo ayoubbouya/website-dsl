@@ -43,6 +43,7 @@
   .paragraph,
   .paragraph1 {
     text-align: left;
+    font-size: 17px;
   }
   .paragraph1 {
     padding-bottom: 2rem;

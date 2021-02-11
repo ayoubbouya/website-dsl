@@ -4,6 +4,7 @@ import logo from "./img/logo.svg";
 import icon from "./img/icon1.svg";
 import mail from "./img/mail.svg";
 import suffle from "./img/shuffle.svg";
+import { LinkContainer } from "react-router-bootstrap";
 
 import {
   Navbar,
@@ -18,17 +19,21 @@ function Header() {
   return (
     <div className={styles.nav}>
       <Navbar className={styles.navContainer} expand="lg">
-        <Navbar.Brand href="#home">
-          <img className={styles.logo} src={logo} alt="logo" />
-        </Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand to="/" activeclassname="active">
+            <img className={styles.logo} src={logo} alt="logo" />
+          </Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" className={styles.links}>
             <div className={styles.lists}>
-              <Nav.Link href="#Services" className={styles.list}>
-                Services
-              </Nav.Link>
+              <LinkContainer to="/service">
+                <Nav.Link activeclassname="active" className={styles.list}>
+                  Services
+                </Nav.Link>
+              </LinkContainer>
               <Nav.Link href="#Product" className={styles.list}>
                 Products
               </Nav.Link>
