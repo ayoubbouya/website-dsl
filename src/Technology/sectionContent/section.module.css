@@ -1,0 +1,21 @@
+.section {
+  margin: auto 9%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.line {
+  margin-top: -1rem;
+}
+.paragraph {
+  font-size: 19px;
+  margin-top: 1rem;
+  line-height: 25.32px;
+  text-align: justify;
+}
+@media (max-width: 1100px) {
+  .section {
+    padding-bottom: 2rem;
+  }
+}

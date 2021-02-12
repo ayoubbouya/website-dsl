@@ -1,37 +1,32 @@
-.coverContainer {
-  position: relative;
-  margin-top: 3px;
-}
-.bg {
-  background-image: url("./images/bg.svg");
+.sectionRed {
+  background-image: url("../images/red.svg");
   margin-top: 0px;
-  height: 465px;
+  height: 363px;
   width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
 }
-
 .heading1 {
   position: absolute;
+  color: white;
   display: block;
   font-size: 48px;
-  width: 545px;
+  width: 745px;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-weight: 400;
+  margin-top: -1.5rem;
 }
 .span {
-  color: #ee4248;
-  font-weight: 600;
+  font-weight: 700;
 }
 @media (max-width: 1100px) {
   .heading1 {
-    font-size: 40px;
-    width: 80%;
-    line-height: 1.3;
-    top: 45%;
+    width: 84%;
+    font-size: 34px;
   }
 }

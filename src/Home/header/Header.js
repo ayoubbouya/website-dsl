@@ -20,26 +20,34 @@ function Header() {
     <div className={styles.nav}>
       <Navbar className={styles.navContainer} expand="lg">
         <LinkContainer to="/">
+          {/* Logo */}
           <Navbar.Brand to="/" activeclassname="active">
             <img className={styles.logo} src={logo} alt="logo" />
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" className={styles.links}>
             <div className={styles.lists}>
+              {/* route services */}
               <LinkContainer to="/service">
                 <Nav.Link activeclassname="active" className={styles.list}>
                   Services
                 </Nav.Link>
               </LinkContainer>
-              <Nav.Link href="#Product" className={styles.list}>
-                Products
-              </Nav.Link>
-              <Nav.Link href="#Technology" className={styles.list}>
-                Technology
-              </Nav.Link>
+              {/* route product */}
+              <LinkContainer to="/product">
+                <Nav.Link href="#Product" className={styles.list}>
+                  Products
+                </Nav.Link>
+              </LinkContainer>
+              {/* route technology */}
+              <LinkContainer to="/technology">
+                <Nav.Link href="#Technology" className={styles.list}>
+                  Technology
+                </Nav.Link>
+              </LinkContainer>
+
               <NavDropdown
                 title="About"
                 className={styles.list}

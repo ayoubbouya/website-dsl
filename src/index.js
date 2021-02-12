@@ -6,6 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Service from "./Services/Services";
+import Product from "./Product/Product";
+import Technology from "./Technology/Technology";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +15,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/service" component={Service} />
+        <Route path="/product" component={Product} />
+        <Route path="/technology" component={Technology} />
       </Switch>
     </Router>
   </React.StrictMode>,

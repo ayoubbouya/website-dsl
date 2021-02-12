@@ -1,0 +1,57 @@
+.cover {
+  background-image: url("./coverRed.svg");
+  margin-top: 2px;
+  height: 620px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mac {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+.heading1 {
+  position: absolute;
+  color: white;
+  display: block;
+  font-size: 52px;
+  width: 825px;
+  text-align: center;
+  line-height: 1.7;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  position: absolute;
+  width: 166px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 12px 32px 12px 32px;
+  border: none;
+  color: #ee4248;
+  background-color: white;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 1100px) {
+  .heading1 {
+    font-size: 38px;
+    width: 80%;
+    top: 33%;
+    line-height: 1.5;
+  }
+  .mac {
+    width: 360px;
+  }
+  .btn {
+    top: 64%;
+  }
+}
