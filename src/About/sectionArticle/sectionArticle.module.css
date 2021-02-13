@@ -1,0 +1,20 @@
+.article {
+  margin: auto 9%;
+  padding: 3rem 0;
+}
+.heading1 {
+  font-size: 32px;
+}
+.line {
+  margin-bottom: 2rem;
+  margin-top: -2px;
+}
+.red {
+  color: #ee4248;
+}
+.paragraph {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: justify;
+}

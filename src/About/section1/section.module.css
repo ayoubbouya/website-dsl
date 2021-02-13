@@ -1,0 +1,21 @@
+.section {
+  background-color: #f2f2f2;
+}
+.cover {
+  height: 368px;
+  margin: 1px 9%;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.paragraph {
+  font-size: 48px;
+  font-weight: 400;
+}
+.span {
+  font-weight: 700;
+}
+.logo {
+  width: 420px;
+}

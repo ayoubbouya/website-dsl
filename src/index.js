@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Service from "./Services/Services";
 import Product from "./Product/Product";
 import Technology from "./Technology/Technology";
+import About from "./About/About";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/service" component={Service} />
         <Route path="/product" component={Product} />
         <Route path="/technology" component={Technology} />
+        <Route path="/about" component={About} />
       </Switch>
     </Router>
   </React.StrictMode>,

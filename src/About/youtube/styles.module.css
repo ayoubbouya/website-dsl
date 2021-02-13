@@ -1,0 +1,15 @@
+.sectionYb {
+  margin: auto 9%;
+  padding: 2rem 0;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yb {
+  width: 50%;
+}
+.content {
+  width: 45%;
+}
