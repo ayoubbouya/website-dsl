@@ -1,15 +1,40 @@
 .sectionYb {
-  margin: auto 9%;
-  padding: 2rem 0;
+  background-color: #f6f6f6;
 }
 .article {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto 9%;
+  padding: 3rem 0;
+}
+.youtube {
+  width: 50%;
 }
 .yb {
-  width: 50%;
+  width: 100%;
 }
 .content {
   width: 45%;
+}
+.paragraph {
+  margin-top: 1rem;
+  line-height: 26px;
+  font-size: 18px;
+  width: 80%;
+}
+.line {
+  margin-top: -1rem;
+}
+.heading1 {
+  font-size: 32px;
+}
+.heading3 {
+  margin: 30px 0;
+}
+.mr {
+  margin-left: 3rem;
+}
+.icon {
+  margin-right: 10px;
 }

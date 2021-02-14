@@ -1,0 +1,25 @@
+.section {
+  background-color: #ee4248;
+  color: white;
+}
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 9%;
+  padding: 3rem 0;
+}
+.article {
+  width: 470px;
+  text-align: justify;
+}
+.lineblack {
+  margin-top: -1rem;
+}
+.paragraph {
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.paragraph2 {
+  font-size: 18px;
+}

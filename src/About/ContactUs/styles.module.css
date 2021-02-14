@@ -1,0 +1,36 @@
+.section {
+  margin: 1px 9%;
+  padding: 5rem 0;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.heading1 {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  margin: 25px 0;
+}
+.map {
+  width: 50%;
+}
+.infos {
+  width: 45%;
+}
+.info {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.icon {
+  margin-right: 20px;
+}
+.heading3 {
+  font-size: 24px;
+}
+.red {
+  margin-top: -1rem;
+}
