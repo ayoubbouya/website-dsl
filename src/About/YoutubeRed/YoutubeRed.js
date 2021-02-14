@@ -27,7 +27,7 @@ function YoutubeRed() {
               Indonesia.
             </p>
           </article>
-          <img src={yb} alt="youtube" />
+          <img src={yb} alt="youtube" className={styles.yb} />
         </div>
       </section>
     </div>

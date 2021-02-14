@@ -19,3 +19,17 @@
 .logo {
   width: 420px;
 }
+@media (max-width: 1100px) {
+  .cover {
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 32px;
+  }
+  .logo {
+    width: 320px;
+  }
+}

@@ -10,7 +10,7 @@
   padding: 3rem 0;
 }
 .article {
-  width: 470px;
+  width: 45%;
   text-align: justify;
 }
 .lineblack {
@@ -22,4 +22,18 @@
 }
 .paragraph2 {
   font-size: 18px;
+}
+.yb {
+  width: 50%;
+}
+@media (max-width: 1100px) {
+  .sectionContainer {
+    flex-direction: column;
+  }
+  .article {
+    width: 100%;
+  }
+  .yb {
+    width: 100%;
+  }
 }

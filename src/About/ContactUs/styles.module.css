@@ -34,3 +34,16 @@
 .red {
   margin-top: -1rem;
 }
+@media (max-width: 1100px) {
+  .article {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .infos,
+  .map {
+    width: 100%;
+  }
+  .section {
+    padding: 2rem 0;
+  }
+}

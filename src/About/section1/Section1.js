@@ -7,7 +7,7 @@ function Section1() {
       <section className={styles.section}>
         <div className={styles.cover}>
           <p className={styles.paragraph}>
-            to grow the business together{" "}
+            to grow the business together <br />
             <span className={styles.span}>
               Continous effort through improvement and innovation
             </span>

@@ -18,3 +18,8 @@
   line-height: 26px;
   text-align: justify;
 }
+@media (max-width: 1100px) {
+  .heading1 {
+    font-size: 30px;
+  }
+}
