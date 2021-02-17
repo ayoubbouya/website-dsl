@@ -1,0 +1,48 @@
+.bg {
+  background-color: #f6f6f6;
+}
+.section1 {
+  margin: auto 9%;
+  padding: 1rem 0;
+}
+.card {
+  width: 230px;
+  height: 284px;
+}
+.head {
+  text-align: center;
+  margin: 3rem 0;
+  margin-bottom: 0rem;
+}
+.heading1 {
+  font-size: 32px;
+}
+.lineRed {
+  margin-top: -1.5rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 1rem 0;
+  margin: 1rem;
+}
+.memberImg {
+  padding: 0.5rem 0;
+}
+.heading5 {
+  font-size: 16px;
+  color: #ee4248;
+  font-weight: 700;
+  line-height: 24px;
+}
+.heading4 {
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -56,6 +56,9 @@ function Header() {
                 <LinkContainer to="/about">
                   <Nav.Link to="/District">About us</Nav.Link>
                 </LinkContainer>
+                <LinkContainer to="/team">
+                  <Nav.Link to="/District">Team</Nav.Link>
+                </LinkContainer>
               </NavDropdown>
               <NavDropdown
                 title="Client"
