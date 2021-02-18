@@ -26,3 +26,16 @@
   margin-left: 2.4vw;
   margin-right: 3rem;
 }
+@media (max-width: 991px) {
+  .links {
+    width: 100%;
+  }
+  .lists {
+    flex-direction: column;
+
+    margin: auto;
+  }
+  .icons {
+    margin: auto;
+  }
+}

@@ -10,6 +10,7 @@ import Product from "./Product/Product";
 import Technology from "./Technology/Technology";
 import About from "./About/About";
 import Team from "./About-team/Team";
+import Clients from "./Clients/Clients";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path="/technology" component={Technology} />
         <Route path="/about" component={About} />
         <Route path="/team" component={Team} />
+        <Route path="/clients" component={Clients} />
       </Switch>
     </Router>
   </React.StrictMode>,

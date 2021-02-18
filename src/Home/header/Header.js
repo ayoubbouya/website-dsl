@@ -65,19 +65,9 @@ function Header() {
                 className={styles.list}
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">
-                  About Action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
+                <LinkContainer to="/clients">
+                  <Nav.Link to="/District">Our Clients</Nav.Link>
+                </LinkContainer>
               </NavDropdown>
               <Nav.Link href="#Partner" className={styles.list}>
                 Partner

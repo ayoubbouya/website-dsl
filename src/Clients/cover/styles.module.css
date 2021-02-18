@@ -1,0 +1,28 @@
+.containerCover {
+  border-bottom: 10px solid #ee4248;
+  position: relative;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin-left: 9%;
+  padding-top: 3rem;
+  align-items: center;
+}
+.heading1 {
+  font-size: 48px;
+  line-height: 67.53px;
+  font-weight: 400;
+}
+.span {
+  font-weight: 700;
+}
+.image {
+  width: 700px;
+}
+.groups {
+  position: absolute;
+  bottom: 0;
+  width: 7%;
+}

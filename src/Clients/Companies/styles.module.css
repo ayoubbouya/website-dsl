@@ -1,0 +1,40 @@
+.bg {
+  background-color: #f6f6f6;
+}
+.sectionContainer {
+  margin: auto 9%;
+  padding: 1rem 0;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article {
+  width: 50%;
+}
+.heading1 {
+  font-size: 32px;
+}
+.heading2 {
+  font-size: 20px;
+  color: #ee4248;
+}
+.paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.lists {
+  font-size: 20px;
+}
+.m1 {
+  margin: 1rem 0;
+}
+.head {
+  text-align: center;
+  margin: 3rem 0;
+}
+.lineRed {
+  margin-top: -1rem;
+}

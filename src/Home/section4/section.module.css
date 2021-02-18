@@ -42,11 +42,15 @@
   .sectionContainer {
     flex-direction: column;
   }
+
   .article1,
   .article2,
   .article3 {
     margin: 0;
     width: 100%;
+  }
+  .article1 {
+    margin-top: 2rem;
   }
   .company {
     width: 90px;
