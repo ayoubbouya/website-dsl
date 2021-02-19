@@ -33,8 +33,23 @@
 }
 .head {
   text-align: center;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 .lineRed {
   margin-top: -1rem;
+}
+@media (max-width: 1100px) {
+  .section {
+    flex-direction: column;
+  }
+  .article {
+    width: 100%;
+  }
+  .heading1 {
+    margin-top: 2rem;
+  }
+  .picture {
+    margin-top: 1rem;
+    width: 90%;
+  }
 }

@@ -9,3 +9,30 @@
 ul {
   list-style: none;
 }
+
+.slick-prev:before {
+  content: url(./Clients/slider/chevron_big_left.svg);
+  margin-left: -3rem;
+}
+
+.slick-next:before {
+  content: url(./Clients/slider/chevron_big_right.svg);
+  margin-left: 3rem;
+}
+
+.slick-next,
+.slick-prev {
+  top: 40%;
+}
+@media (max-width: 1100px) {
+  .slick-next,
+  .slick-prev {
+    top: 20%;
+  }
+  .slick-prev:before {
+    margin-left: 1rem;
+  }
+  .slick-next:before {
+    margin-left: -1rem;
+  }
+}

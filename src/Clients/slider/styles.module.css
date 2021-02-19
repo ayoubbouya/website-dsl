@@ -1,0 +1,51 @@
+.slickSlider {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.headSlick {
+  margin: 2rem 0;
+}
+.redline {
+  margin-top: -2rem;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+.profile {
+  margin: auto;
+  width: 33%;
+}
+.article {
+  width: 50%;
+  text-align: left;
+}
+.paragraph {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 2rem 0;
+}
+@media (max-width: 1100px) {
+  .slickSlider {
+    width: 90%;
+  }
+  .section {
+    flex-direction: column;
+    width: 90%;
+  }
+  .article {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .profile {
+    margin-top: -2rem;
+    width: 100%;
+  }
+  .paragraph {
+    font-size: 20px;
+  }
+}
