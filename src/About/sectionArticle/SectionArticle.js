@@ -10,7 +10,7 @@ function SectionArticle() {
         </h1>
         <img src={line} alt="line" className={styles.line} />
         <p className={styles.paragraph}>
-          <span className={styles.red}>Dwidasa Samsara Indonesia (DSI)</span>
+          <span className={styles.red}>Dwidasa Samsara Indonesia (DSI) </span>
           was firstly established in 2010 by the founders, who each of them has
           a common end objective to innovate new creations by making the most of
           the ever-growing information technology through{" "}

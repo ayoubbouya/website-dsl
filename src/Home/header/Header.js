@@ -54,10 +54,14 @@ function Header() {
                 id="basic-nav-dropdown"
               >
                 <LinkContainer to="/about">
-                  <Nav.Link to="/District">About us</Nav.Link>
+                  <Nav.Link className={styles.center} to="/District">
+                    About us
+                  </Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/team">
-                  <Nav.Link to="/District">Team</Nav.Link>
+                  <Nav.Link className={styles.center} to="/District">
+                    Team
+                  </Nav.Link>
                 </LinkContainer>
               </NavDropdown>
               <NavDropdown
@@ -66,12 +70,16 @@ function Header() {
                 id="basic-nav-dropdown"
               >
                 <LinkContainer to="/clients">
-                  <Nav.Link to="/District">Our Clients</Nav.Link>
+                  <Nav.Link className={styles.center} to="/District">
+                    Our Clients
+                  </Nav.Link>
                 </LinkContainer>
               </NavDropdown>
-              <Nav.Link href="#Partner" className={styles.list}>
-                Partner
-              </Nav.Link>
+              <LinkContainer to="/partner">
+                <Nav.Link activeclassname="active" className={styles.list}>
+                  Partner
+                </Nav.Link>
+              </LinkContainer>
             </div>
             <Nav.Link className={styles.icons} href="#Services">
               <img className={styles.icon} src={icon} alt="icon" />

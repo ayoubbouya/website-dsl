@@ -19,7 +19,7 @@
 }
 .right {
   position: absolute;
-  transform: translate(-18%, 0%);
+  transform: translate(1%, 0%);
   width: 10%;
   top: 0;
   right: 0;

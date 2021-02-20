@@ -15,7 +15,10 @@
   display: flex;
   width: 83%;
 }
-
+.center {
+  width: 100%;
+  text-align: center;
+}
 .list {
   margin: auto;
 }

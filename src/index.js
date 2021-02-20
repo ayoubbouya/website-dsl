@@ -11,6 +11,7 @@ import Technology from "./Technology/Technology";
 import About from "./About/About";
 import Team from "./About-team/Team";
 import Clients from "./Clients/Clients";
+import Partner from "./Partner/Partner";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         <Route path="/team" component={Team} />
         <Route path="/clients" component={Clients} />
+        <Route path="/partner" component={Partner} />
       </Switch>
     </Router>
   </React.StrictMode>,
